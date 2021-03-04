@@ -110,3 +110,13 @@ $hash = password_hash("toto", PASSWORD_BCRYPT);
 var_dump($hash);
 
 var_dump(password_verify($hash, "toto"));
+
+<?php
+
+$hash = password_hash("toto", PASSWORD_BCRYPT);
+
+var_dump($hash);
+
+$passOk = password_verify("toto", $hash);
+
+var_dump($passOk);
