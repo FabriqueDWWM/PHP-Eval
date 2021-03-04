@@ -73,7 +73,7 @@ On affichera un bouton de *déconnexion* à la place du bouton de *connexion*.
 ## Zone admin ( 2h )
 
 ### Authentification
-Créez une page d'administration accessible via l'url /admin.
+Créez une page d'administration accessible via l'url index.php?page=admin.
 
 *Si vous ne savez pas faire cette partie (authentification), passez à la suivante.*
 
