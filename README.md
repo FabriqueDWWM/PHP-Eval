@@ -56,7 +56,7 @@ La structure de l'application est fournie.
     - le nom du site
     - un bouton de connexion (vous créerez le formulaire par la suite) si l'utilisateur n'est pas connecté
     - le nom de l'utilisateur s'il est connecté, avec un bouton de déconnexion
-- tous les articles avec le titre, le date, le image, le contenu. Si possible par ordre anti-chronologique.
+- tous les articles avec le titre, la date, l'image, le contenu. Si possible par ordre anti-chronologique.
 
 2 - Pour chaque article, créer un lien vers une page d'affichage de cet article.
 
