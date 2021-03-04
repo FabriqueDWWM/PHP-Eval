@@ -102,7 +102,7 @@ Voici le mot de passe *toto* encodé : $2y$10$1QfBjKEqMVbTW0x/1SUzb.gUvU6uwkE2KI
 Vous pouvez l'utiliser comme mot de passe de vos utilisateurs.
 
 Fonctionnement de *passwordHash* et *passwordVerify* :
-
+```
 <?php
 
 $hash = password_hash("toto", PASSWORD_BCRYPT);
@@ -120,3 +120,4 @@ var_dump($hash);
 $passOk = password_verify("toto", $hash);
 
 var_dump($passOk);
+```
